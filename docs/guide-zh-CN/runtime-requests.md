@@ -191,7 +191,7 @@ $userIP = Yii::$app->request->userIP;
         'X-Proxy-User-Ip',
     ],
     'secureProtocolHeaders' => [
-        'Front-End-Https' => ['on']
+        'Front-End-Https' => ['https']
     ],
 ],
 ```
